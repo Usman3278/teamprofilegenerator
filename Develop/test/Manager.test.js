@@ -1,20 +1,20 @@
-const Manager = require("../lib/Manager");
-const Employee = require("../lib/Employee");
+const Manager = require('../lib/manager')
 
-test("Can set office number via constructor argument", () => {
-  const testValue = 100;
-  const e = new Manager("Foo", 1, "test@test.com", testValue);
-  expect(e.officeNumber).toBe(testValue);
+
+test("setting officenumber", () => {
+  const val = 100;
+  const employee = new Manager("name", 1, "example@test.com", val);
+  expect(employee.officeNumber).toBe(val);
 });
 
-test('getRole() should return "Manager"', () => {
-  const testValue = "Manager";
-  const e = new Manager("Foo", 1, "test@test.com", 100);
-  expect(e.getRole()).toBe(testValue);
+test('getRole() fn should return manger', () => {
+  const val = "Manager";
+  const employee = new Manager("name", 1, "example@test.com", 100);
+  expect(employee.getRole()).toBe(val);
 });
 
-test("Can get office number via getOffice()", () => {
-  const testValue = 100;
-  const e = new Manager("Foo", 1, "test@test.com", testValue);
-  expect(e.getOfficeNumber()).toBe(testValue);
+test("getOffice() fn should return officeNuber", () => {
+  const val = 100;
+  const employee = new Manager("name", 1, "example@test.com", val);
+  expect(employee.getOfficeNumber()).toBe(val);
 });
