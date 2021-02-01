@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const htmlTemplate = require("./templates/htmlTemplate");
+const htmlTemplate = require('./template/htmlTemplate');
 const Employee = require("./lib/employee");
 const Engineer = require("./lib/engineer");
 const Manager = require("./lib/manager");
