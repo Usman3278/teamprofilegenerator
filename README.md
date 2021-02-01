@@ -11,21 +11,21 @@ Build a software engineering team generator command line application. The applic
 As a manager, I want to generate a webpage that displays my team's basic info
 so that I have quick access to emails and GitHub profiles.
 
-# Recording
+# Recording/Screenshot
 
 [MyTeamRecording.mov.zip](https://github.com/Usman3278/teamprofilegenerator/files/5904669/MyTeamRecording.mov.zip)
-
+<img width="699" alt="nodeappss" src="https://user-images.githubusercontent.com/71395909/106479126-f63cd600-6477-11eb-9913-635bfb52fdba.png">
 
 # Technologies Used
 Javascript
+CSS
 Node.js
-Css
 npm modules
 
 # Dependencies
 Inquirer
-fs
 path
+fs
 jest
 
 
